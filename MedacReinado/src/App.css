@@ -25,12 +25,16 @@ div{
   flex-direction: column;
 margin-top: 10vh;
 align-items: center;
+  text-align: center;
   
 }
 
 section{
-  width: 400px;
+  width: 100%;
  
+}
+h3{
+  color: red;
 }
 .modal {
   padding: 1%;
