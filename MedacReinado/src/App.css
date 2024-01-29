@@ -21,14 +21,37 @@ input::placeholder{
 }
 
 div{
-  margin: 30%;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+margin-top: 10vh;
+align-items: center;
   
+}
+
+section{
+  width: 400px;
+ 
+}
+.modal {
+  padding: 1%;
+  position: fixed;
+  z-index: 1;
+  left: 24%;
+  top: 10%;
+  width: 50%;
+  height: 50%;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+ 
+  background-color: rgba(0, 0, 0, 0.808)
 }
 
 .flex{
   display: flex;
   flex-direction: row;
+}
+img{
+  width: 100px;
 }
 
 
